@@ -1,0 +1,24 @@
+{
+  "name": "companimizer-api",
+  "version": "1.0.0",
+  "description": "![HTML](https://img.shields.io/badge/-NODE-orange) ![JS](https://img.shields.io/badge/-JS-yellow) ![MongoDB](https://img.shields.io/badge/-MongoDB-darkgreen)\r ![NoSQL](https://img.shields.io/badge/-NoSQL-darkred) ![Mongoose](https://img.shields.io/badge/-Mongoose-purple) ![Express](https://img.shields.io/badge/Express-indigo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umairkhalid/Companimizer-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umairkhalid/Companimizer-API/issues"
+  },
+  "homepage": "https://github.com/umairkhalid/Companimizer-API#readme",
+  "dependencies": {
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.0"
+  }
+}
