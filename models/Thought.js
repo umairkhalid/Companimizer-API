@@ -2,6 +2,7 @@ const { Schema, model } = require('mongoose');
 const reactionSchema = require('./Reaction');
 const moment = require('moment');
 
+// Schema to create Thought model
 const thoughtSchema = new Schema(
   {
     thoughtText: {
@@ -11,6 +12,7 @@ const thoughtSchema = new Schema(
       maxLength: 280,
     },
     createdAt: {
+      // Use built in date method to get current date
       type: Date,
       default: Date.now,
       // Moment
@@ -31,12 +33,14 @@ const thoughtSchema = new Schema(
   },
 );
 
+// Create a virtual property `reactionCount` that gets the number of reactions on a Thought
 thoughtSchema
     .virtual("reactionCount")
     .get(function () {
       return this.reactions.length;
     })
 
+// Initialize our Thought model
 const Thought = model("thought", thoughtSchema);
 
 module.exports = Thought;

@@ -54,6 +54,7 @@ module.exports = {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
       { $set: req.body },
+      // Sets to true so updated document is returned; Otherwise original document will be returned
       { runValidators: true, new: true }
     )
       .populate({ path: "reactions", select: "-__v" })
