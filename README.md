@@ -34,7 +34,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 
 ## Walkthrough Videos
-
+---
 ### API Routes
 
 **`/api/users`**
@@ -48,8 +48,23 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 * `PUT` to update a user by its `_id`
 
 * `DELETE` to remove user by its `_id`
+---
 
 ![Demo of all users routes being tested in Insomnia.](./assets/demo_user.gif)
+
+---
+
+**`/api/users/:userId/friends/:friendId`**
+
+* `POST` to add a new friend to a user's friend list
+
+* `DELETE` to remove a friend from a user's friend list
+
+---
+
+![Demo of adding and removing friends from users being tested in Insomnia.](./assets/add_remove_friend.gif)
+
+---
 
 ## Table-of-Contents
 * [Installation](#installation)
