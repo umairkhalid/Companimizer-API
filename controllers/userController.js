@@ -26,6 +26,8 @@ module.exports = {
   },
   // create a new user
   createUser(req, res) {
+    console.log('You are adding a User!');
+    console.log(req.body);
     User.create(req.body)
       .then(dbUserData => res.json(dbUserData))
       .catch(err => res.status(400).json(err));
