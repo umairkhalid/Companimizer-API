@@ -84,6 +84,18 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ---
 
+**`/api/thoughts/:thoughtId/reactions`**
+
+* `POST` to create a reaction stored in a single thought's `reactions` array field
+
+* `DELETE` to pull and remove a reaction by the reaction's `reactionId` value
+
+---
+
+![Demo of adding and removing friends from users being tested in Insomnia.](./assets/add_remove_reaction.gif)
+
+---
+
 ## Table-of-Contents
 * [Installation](#installation)
 * [Usage](#usage)
