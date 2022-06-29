@@ -49,7 +49,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 * `DELETE` to remove user by its `_id`
 
-![Demo of all users routes being tested in Insomnia.](https://drive.google.com/file/d/1dlZN4zisBfcXqdhSL4ebFGpStGj2rB0L/view)
+![Demo of all users routes being tested in Insomnia.](./dist/demo_user.gif)
 
 ## Table-of-Contents
 * [Installation](#installation)
