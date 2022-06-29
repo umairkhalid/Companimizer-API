@@ -66,6 +66,24 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ---
 
+**`/api/thoughts`**
+
+* `GET` to get all thoughts
+
+* `GET` to get a single thought by its `_id`
+
+* `POST` to create a new thought
+
+* `PUT` to update a thought by its `_id`
+
+* `DELETE` to remove a thought by its `_id`
+
+---
+
+![Demo of adding and removing friends from users being tested in Insomnia.](./assets/thought_routes.gif)
+
+---
+
 ## Table-of-Contents
 * [Installation](#installation)
 * [Usage](#usage)
