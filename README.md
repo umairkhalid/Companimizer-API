@@ -49,7 +49,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 * `DELETE` to remove user by its `_id`
 
-![Demo of all users routes being tested in Insomnia.](./Assets/18-nosql-homework-demo-01.gif)
+![Demo of all users routes being tested in Insomnia.](./dist/User_getters_and_setters.mp4)
 
 ## Table-of-Contents
 * [Installation](#installation)
